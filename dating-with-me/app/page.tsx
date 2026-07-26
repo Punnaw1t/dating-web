@@ -402,7 +402,7 @@ export default function DateInvitePage() {
               <div className="field-label">📆 Date *</div>
               <input
                 type="date"
-                className="cute-input"
+                className="cute-input date-input"
                 value={dateVal}
                 onChange={e => setDateVal(e.target.value)}
               />

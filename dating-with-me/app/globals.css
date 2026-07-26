@@ -293,7 +293,7 @@ h1 {
   text-align: left; animation: fadein .4s;
 }
 .field-label { font-size: var(--label-fs); font-weight: 700; color: #C06080; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
-.form-row    { display: grid; grid-template-columns: 1fr 0.8fr; gap: 24px; }
+.form-row    { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 
 .cute-input {
   width: 100%; padding: var(--input-py) var(--input-px);
@@ -304,8 +304,12 @@ h1 {
 .cute-input:focus        { border-color: #D4537E; background: #fff; box-shadow: 0 0 0 3px rgba(212,83,126,.1); }
 .cute-input::placeholder { color: #E0A0B8; }
 
+.date-input {
+  width: 100%;
+}
+
 /* ─── Time dropdown ──────────────────────────────────── */
-.custom-dd  { position: relative; user-select: none; }
+.custom-dd  { position: relative; user-select: none; width: 100%; }
 .dd-trigger {
   display: flex; align-items: center; justify-content: space-between; gap: 8px;
   padding: var(--input-py) var(--input-px); font-size: var(--input-fs);
