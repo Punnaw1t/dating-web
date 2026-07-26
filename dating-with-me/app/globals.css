@@ -63,6 +63,9 @@ body { font-family: 'Nunito', sans-serif; }
     --result-fs: 20px; --plan-fs: 12.5px;
     --send-fs: 14.5px;
   }
+   .form-row {
+    gap: 32px;
+  }
 }
 
 /* iPhone Plus / Max */
@@ -73,6 +76,9 @@ body { font-family: 'Nunito', sans-serif; }
     --btn-fs: 15px; --btn-py: 12px; --btn-px: 28px;
     --screen-max: 460px; --card-max: 400px; --form-max: 380px; --plan-max: 375px;
     --send-fs: 15px; --send-py: 12px; --send-px: 32px;
+  }
+  .form-row {
+    gap: 32px;
   }
 }
 
@@ -287,7 +293,7 @@ h1 {
   text-align: left; animation: fadein .4s;
 }
 .field-label { font-size: var(--label-fs); font-weight: 700; color: #C06080; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
-.form-row    { display: grid; grid-template-columns: 0.7fr 0.8fr; gap: 24px; }
+.form-row    { display: grid; grid-template-columns: 1fr 0.8fr; gap: 24px; }
 
 .cute-input {
   width: 100%; padding: var(--input-py) var(--input-px);
