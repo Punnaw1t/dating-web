@@ -318,6 +318,7 @@ h1 {
   min-height: 52px;
   padding: 0 var(--input-px);
   display: block;
+  text-align: center;
 }
 
 .date-input::-webkit-calendar-picker-indicator {
