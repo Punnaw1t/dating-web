@@ -287,7 +287,7 @@ h1 {
   text-align: left; animation: fadein .4s;
 }
 .field-label { font-size: var(--label-fs); font-weight: 700; color: #C06080; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
-.form-row    { display: grid; grid-template-columns: 0.7fr 0.8fr; gap: 10px; }
+.form-row    { display: grid; grid-template-columns: 0.7fr 0.8fr; gap: 24px; }
 
 .cute-input {
   width: 100%; padding: var(--input-py) var(--input-px);
