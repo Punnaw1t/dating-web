@@ -313,9 +313,30 @@ h1 {
 
 .date-input {
   width: 100%;
+  box-sizing: border-box;
+  height: 52px;
+  min-height: 52px;
+  padding: 0 var(--input-px);
+  display: block;
 }
 
-/* ─── Time dropdown ──────────────────────────────────── */
+.date-input::-webkit-calendar-picker-indicator {
+  padding: 0 8px;
+}
+
+.custom-dd {
+  position: relative; user-select: none; width: 100%; box-sizing: border-box;
+}
+
+.dd-trigger {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 0 var(--input-px); font-size: var(--input-fs);
+  height: 52px; min-height: 52px; box-sizing: border-box;
+  border: 2px solid #F4D0DC; border-radius: var(--input-r);
+  background: rgba(255,255,255,.9); cursor: pointer; color: #882244;
+  transition: all .15s; backdrop-filter: blur(4px);
+}
+
 .custom-dd  { position: relative; user-select: none; width: 100%; }
 .dd-trigger {
   display: flex; align-items: center; justify-content: space-between; gap: 8px;
