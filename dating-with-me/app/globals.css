@@ -300,6 +300,7 @@ h1 {
   font-size: var(--input-fs); border: 2px solid #F4D0DC;
   border-radius: var(--input-r); background: rgba(255,255,255,.9);
   color: #882244; font-family: inherit; transition: all .15s; outline: none; backdrop-filter: blur(4px);
+  line-height: 1.35; min-height: 52px; -webkit-appearance: none; appearance: none;
 }
 .cute-input:focus        { border-color: #D4537E; background: #fff; box-shadow: 0 0 0 3px rgba(212,83,126,.1); }
 .cute-input::placeholder { color: #E0A0B8; }
