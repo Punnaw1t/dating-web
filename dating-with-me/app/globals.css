@@ -96,6 +96,9 @@ body { font-family: 'Nunito', sans-serif; }
     --result-fs: 22px; --plan-fs: 13.5px; --plan-lbl: 10px; --plan-sub: 11px;
     --send-py: 13px; --send-px: 38px; --send-fs: 16px;
   }
+   .form-row {
+    gap: 32px;
+  }
 }
 
 /* iPad Pro */
@@ -111,6 +114,9 @@ body { font-family: 'Nunito', sans-serif; }
     --section-fs: 19px; --section-sub: 14px;
     --result-fs: 24px; --plan-fs: 14.5px; --plan-lbl: 10.5px; --plan-sub: 12px;
     --send-py: 14px; --send-px: 44px; --send-fs: 17px;
+  }
+   .form-row {
+    gap: 32px;
   }
 }
 
