@@ -312,12 +312,14 @@ h1 {
 .cute-input::placeholder { color: #E0A0B8; }
 
 .date-input {
-  width: 100%;
+   width: 100%;
   box-sizing: border-box;
   height: 52px;
   min-height: 52px;
   padding: 0 var(--input-px);
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   text-align: center;
 }
 
